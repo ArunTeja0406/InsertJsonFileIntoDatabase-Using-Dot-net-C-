@@ -1,0 +1,14 @@
+CREATE TABLE SalesData_New (
+    VID UNIQUEIDENTIFIER,
+    Deleted INT,
+    CreatedDate DATETIME,
+    ModifiedDate DATETIME,
+    OrderId INT,
+    ProductCode VARCHAR(100), -- New column
+    Name VARCHAR(250),
+    ProductArea VARCHAR(250),
+    Manufacturer VARCHAR(250),
+    GoodsRecNumber VARCHAR(100),
+    VendorInvoiceNumber VARCHAR(100),
+    SalesQty INT
+);

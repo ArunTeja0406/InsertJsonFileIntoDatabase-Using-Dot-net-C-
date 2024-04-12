@@ -17,7 +17,7 @@ namespace InsertJsonFileIntoSQLSever
             try
             {
                 string connectionString = Config.ConnectionString;
-                string directoryPath = "F:\\C Sharp Projects\\Sample Json Data";
+                string directoryPath = ""; // Add your folder path where files contains
 
                 if (!Directory.Exists(directoryPath))
                 {
@@ -43,7 +43,7 @@ namespace InsertJsonFileIntoSQLSever
 
                             foreach (var sale in sales)
                             {
-                                if (!string.IsNullOrEmpty(sale.Manufacturer) || sale.Manufacturer == "Apple")
+                                if (!string.IsNullOrEmpty(sale.Manufacturer) || sale.Manufacturer == "Apple") // In case to filter data based on values, add parameters else remove condition
                                 {
                                     using (SqlCommand command = new SqlCommand(insertQuery, connection))
                                     {

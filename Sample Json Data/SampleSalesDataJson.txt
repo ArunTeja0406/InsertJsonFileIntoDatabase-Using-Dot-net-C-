@@ -1,0 +1,52 @@
+[
+    {
+        "OrderId": 1001,
+        "ProductCode": "MPH001",
+        "Name": "iPhone 12 Pro",
+        "ProductArea": "Electronics",
+        "Manufacturer": "Apple",
+        "GoodsRecNumber": "GRN001",
+        "VendorInvoiceNumber": "INV001",
+        "SalesQty": 50
+    },
+    {
+        "OrderId": 1002,
+        "ProductCode": "MPH002",
+        "Name": "Samsung Galaxy S21 Ultra",
+        "ProductArea": "Electronics",
+        "Manufacturer": "Samsung",
+        "GoodsRecNumber": "GRN002",
+        "VendorInvoiceNumber": "INV002",
+        "SalesQty": 40
+    },
+    {
+        "OrderId": 1003,
+        "ProductCode": "MPH003",
+        "Name": "Google Pixel 5",
+        "ProductArea": "Electronics",
+        "Manufacturer": "Google",
+        "GoodsRecNumber": "GRN003",
+        "VendorInvoiceNumber": "INV003",
+        "SalesQty": 30
+    },
+    {
+        "OrderId": 1004,
+        "ProductCode": "MPH004",
+        "Name": "OnePlus 9 Pro",
+        "ProductArea": "Electronics",
+        "Manufacturer": "OnePlus",
+        "GoodsRecNumber": "GRN004",
+        "VendorInvoiceNumber": "INV004",
+        "SalesQty": 35
+    },
+    {
+        "OrderId": 1005,
+        "ProductCode": "MPH005",
+        "Name": "Xiaomi Mi 11",
+        "ProductArea": "Electronics",
+        "Manufacturer": "Xiaomi",
+        "GoodsRecNumber": "GRN005",
+        "VendorInvoiceNumber": "INV005",
+        "SalesQty": 45
+    }
+]
